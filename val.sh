@@ -1,0 +1,1 @@
+bash decode_AGENDA.sh $1 $2 graph2text/data/agenda/test-nodes.txt graph2text/data/agenda/test-graph.txt outputs/output_test.txt && python ../GraphWriter/eval.py outputs/output_test.txt graph2text/data/agenda/test-tgt.txt
